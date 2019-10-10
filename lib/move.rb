@@ -16,15 +16,15 @@ def input_to_index(string)
 end
 
 
-def move(board, input_to_index, character = "X")
+def move(board, input_to_index, character2 = "X")
 
 
-  board[input_to_index] = character
-  #board = [" ", " ", " "]
-  #def update_array_at_with(array, index, value)
-  #  array[index] = value
-  #end
+  board[input_to_index] = character2
+  board = [" ", " ", " "]
+  def update_array_at_with(array, index, value)
+   array[index] = value
+  end
 
-  #update_array_at_with(board, 0, "X")
-  #board
+  update_array_at_with(board, 0 , "X")
+  board
 end
